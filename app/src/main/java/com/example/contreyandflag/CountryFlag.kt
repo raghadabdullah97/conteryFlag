@@ -26,12 +26,9 @@ class CountryFlag : Fragment() {
     return binding?.root
   }
 
-
-
   override fun onDestroyView() {
     super.onDestroyView()
     binding = null
   }
 }
 
-//kk
